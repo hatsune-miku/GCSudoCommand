@@ -6,6 +6,7 @@ Currently, no restrictions on the usage of `sudo`, it simply dangerously runs ev
 
 For test use only, do not apply this plugin to public servers.
 
+![Sudo Command Example](images/sudo.png)
 
 ### Example
 

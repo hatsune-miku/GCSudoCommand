@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>xyz.grasscutters</groupId> <!-- Replace with your groupId -->
-    <artifactId>PluginTemplate</artifactId> <!-- Replace with your plugin name. -->
-    <version>1.1.2-dev</version> <!-- The template's version corresponds to the latest API version. -->
+    <groupId>eggtartc</groupId>
+    <artifactId>GCSudoPlugin</artifactId>
+    <version>0.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -25,10 +25,10 @@
     </repositories>
     
     <dependencies>
-        <dependency>
-            <groupId>xyz.grasscutters</groupId> <!-- Versions below 1.0.3-dev are on 'tech.xigam' -->
-            <artifactId>grasscutter</artifactId>
-            <version>1.2.0</version> <!-- Replace with the latest version of the API. -->
-        </dependency>
+        <!--
+        The newest gc on that `sonatype` repo is still 1.2.0.
+        Its very outdated and is TOTALLY not compatible with 1.4.5.
+        Using jar package directly in this project, instead of maven dependencies.
+        -->
     </dependencies>
 </project>

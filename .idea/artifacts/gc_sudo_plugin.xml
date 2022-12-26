@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gc-sudo-plugin">
+    <output-path>$PROJECT_DIR$/out/artifacts/gc_sudo_plugin</output-path>
+    <root id="archive" name="gc-sudo-plugin.jar">
+      <element id="module-output" name="GCSudoPlugin" />
+    </root>
+  </artifact>
+</component>
